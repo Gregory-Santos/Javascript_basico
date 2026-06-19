@@ -69,12 +69,13 @@
 // }
 // } while(opcao !== 3);
 
-let playlist = [
-    "me ama",
-    "escudo",
-    "quem é esse?"
-]
+// let playlist = [
+//     "me ama",
+//     "escudo",
+//     "quem é esse?"
+// ]
 
-for(let i = 0; i < playlist.length; i++){
-console.log(playlist[2])
-}
+// for(let i = 0; i < playlist.length; i++){
+// console.log(playlist[2])
+// }
+
