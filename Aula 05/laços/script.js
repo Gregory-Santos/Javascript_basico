@@ -79,3 +79,20 @@
 // console.log(playlist[2])
 // }
 
+/*Crie um vetor contendo:
+
+```text
+5 filmes
+```
+
+Mostre todos utilizando um `for`.*/
+
+let cinema = [
+    "Vingadores Ultimato",
+    "Homem-Aranha: Um Novo Dia",
+    "Michael Jackson",
+    "Toy Story 5"
+]
+for(let i = 0; i < cinema.lenght; i++){
+    console.log(cinema[1])
+}
