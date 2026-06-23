@@ -76,7 +76,7 @@
 // ]
 
 // for(let i = 0; i < playlist.length; i++){
-// console.log(playlist[2])
+// console.log(playlist[i])
 // }
 
 /*Crie um vetor contendo:
@@ -87,12 +87,36 @@
 
 Mostre todos utilizando um `for`.*/
 
-let cinema = [
-    "Vingadores Ultimato",
-    "Homem-Aranha: Um Novo Dia",
-    "Michael Jackson",
-    "Toy Story 5"
-]
-for(let i = 0; i < cinema.lenght; i++){
-    console.log(cinema[1])
-}
+// let cinema = [
+//     "Homem Aranha",
+//     "Toy Story 5",
+//     "Michael Jackson"
+// ]
+
+// for(let i = 0; i < cinema.length; i++){
+// console.log(cinema[i])
+// }
+
+/*# 🚀 Desafio 7
+
+Crie um vetor com as notas:
+
+```javascript
+[7, 8, 10, 5]
+```
+
+Calcule a soma.
+
+Resultado esperado:
+
+```text
+30
+```
+*/
+
+let notas = [
+    7,
+    8,
+    10,
+    5
+] 
