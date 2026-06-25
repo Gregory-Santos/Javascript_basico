@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Prático DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GospelFlix</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="filmes.html">Filmes</a>
+        </nav>
+    </header>
+    <main>
+        <form id="formulario">
+            <fieldset>
+        <!-- Campo: Nome do Filme -->
+        <p>
+            <label for="nome">Nome do Filme:</label><br>
+            <input type="text" id="nome" name="nome" required>
+        </p>
+
+        <!-- Campo: Gênero -->
+        <p>
+            <label for="genero">Gênero:</label><br>
+            <input type="text" id="genero" name="genero" required>
+        </p>
+
+        <!-- Campo: Ano de Lançamento -->
+        <p>
+            <label for="ano">Ano de Lançamento:</label><br>
+            <input type="number" id="ano" name="ano" placeholder="Ex: 2024" required min="1980" max="2026">
+        </p>
+
+        <!-- Botão de Cadastro -->
+        <button type="button">Cadastrar Filme</button>
+
+        
+    </fieldset>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
