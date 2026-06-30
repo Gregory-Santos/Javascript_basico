@@ -13,6 +13,7 @@
             <a href="index.html">Início</a>
             <a href="filmes.html">Filmes</a>
         </nav>
+        <button id="modoClaro">☀️ Modo Claro</button>
     </header>
     <main>
         <form id="formulario">
@@ -20,27 +21,32 @@
         <!-- Campo: Nome do Filme -->
         <p>
             <label for="nome">Nome do Filme:</label><br>
-            <input type="text" id="nome" name="nome" required>
+            <input type="text" id="nome" name="nome">
         </p>
 
         <!-- Campo: Gênero -->
         <p>
             <label for="genero">Gênero:</label><br>
-            <input type="text" id="genero" name="genero" required>
+            <input type="text" id="genero" name="genero">
         </p>
 
         <!-- Campo: Ano de Lançamento -->
         <p>
             <label for="ano">Ano de Lançamento:</label><br>
-            <input type="number" id="ano" name="ano" placeholder="Ex: 2024" required min="1980" max="2026">
+            <input type="number" id="ano" name="ano" placeholder="Ex: 2024" min="1980" max="2026">
         </p>
 
         <!-- Botão de Cadastro -->
-        <button type="button">Cadastrar Filme</button>
+        <button type="submit">Cadastrar Filme</button>
 
         
     </fieldset>
     </form>
+
+     <!-- Filmes escolhidos-->
+        <h2 id="contador">Filmes cadastrados: 0</h2>
+
+        <div id="listaFilmes"></div>
 
     <script src="script.js"></script>
 </body>
