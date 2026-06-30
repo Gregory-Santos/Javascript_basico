@@ -32,7 +32,3 @@ formulario.addEventListener("button", function(event){
 
 let filme =
 document.createElement("div");
-
-<p id="texto"></p>
-<button onclick="esconderTexto()">Esconder</button>
-<button onclick="mostrarTexto()">Mostrar</button>
